@@ -16,9 +16,7 @@ export default function Home(props) {
                 console.log(response);
                 const repositories = response.data;
                 const repositoriesName = [];
-                repositories.map((repository) => {
-                    repositoriesName.push(repository.name);
-                });
+                repositories.map((repository) => repositoriesName.push(repository.name));
 
                 localStorage.setItem("repositoriesName", JSON.stringify(repositoriesName));
                 setErro(false);
