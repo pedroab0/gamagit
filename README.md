@@ -8,7 +8,13 @@ Live demo [Here](https://pbgamagit.netlify.app/)
 
 This application was made with ReactJS (react-router, axios and styled-components) 
 
-To run, open the application folder on your terminal and type
+To run, open the application folder on your terminal and install the dependencies
+
 ```javascript
-npm run start
+npm install
+```
+After that type
+
+```javascript
+npm start
 ```
