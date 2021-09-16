@@ -13,7 +13,7 @@ export default function Home(props) {
         axios
             .get(`https://api.github.com/users/${usuario}/repos`)
             .then((response) => {
-                console.log(response);
+                // console.log(response);
                 const repositories = response.data;
                 const repositoriesName = [];
                 repositories.map((repository) => repositoriesName.push(repository.name));
